@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>First Assignment</title>
     <meta charset="UTF-8">
+    <title>First Assignment</title>
     <style>
-        doby{
+    .doby{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 50px;
         }
 
-    </style>
+    .container {
+        position: relative;
+        text-align: left;
+        color: rgb(35, 35, 139);
+    }
+
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    }
+</style>
+
 </head>
 <body>
     <header>
-        <div>
-            <img src="Banner1.jpg" alt="Web interface design" height="250" width="970" style>
+        <div class="container">
+            <img src="Banner1.jpg" alt="Banner" height="250" width="1240" >
+            <div class="top-left"><h1>COMM 213<br>Web interface design<br>First semester</h1></div>
         </div>
-        <h1>COMM 213 Web interface design - First semester</h1>
-        <h2>
-            Studen Name: Fabian Bolanos
-        </h2>
-        <h3>
-            Studen number: 301378302
-        </h3>
     </header>
 </body>
+<h2 >Fabian Bolanos<br> <small>Student number: 301378302</small>
+</h2>
+
 <main>
     <hr style="color: blue; border-style: solid;">
     <div>
